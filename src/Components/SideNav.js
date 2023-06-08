@@ -7,7 +7,7 @@ export default function SideNav() {
     const [currAct, setCurrAct] = useState('home');
 
     useEffect(() => {
-        setCurrAct(location.pathname)
+        setCurrAct(location.pathname || 'home')
     }, [location])
 
     return (
