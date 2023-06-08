@@ -8,7 +8,7 @@ export default function SideNav() {
 
     useEffect(() => {
         setCurrAct(location.pathname)
-    }, [])
+    }, [location])
 
     return (
         <div className="left-menu">
