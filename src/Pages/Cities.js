@@ -40,7 +40,7 @@ function Cities() {
 
     const getStates = async () => {
         try {
-            let token = await weatherService.getAuthToken('nithish.fourns@gmail.com', 'aWqx8_iJkM9eP5JULCXM8Te-A9BKoW1a6SA8Um9PNPX0Q1xLMhaGzBhyhhd-xJQBuGk');
+            let token = await weatherService.getAuthToken('akulabhavana110@gmail.com', 'K12KhGKvrulrhlDuEhz_ObMawQx9jluhFzT1noeyRsMzMD-KbxvIJ7TlCrIFP1E7V2U');
             token = token && token.auth_token;
             if (token) {
                 setToken(token);
